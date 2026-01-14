@@ -90,8 +90,6 @@ npm install
 
 ## Testing
 
-Test the setup:
-
 ```bash
 # Quick test
 npm run test
@@ -99,21 +97,3 @@ npm run test
 # Manual test
 npm run sheets test-v1
 ```
-
-## Troubleshooting
-
-**"The caller does not have permission"**
-
-- Verify spreadsheet is shared with service account email
-- Check Editor permissions granted
-
-**"Sheet not found"**
-
-- Verify `MAIN_SHEET_NAME` matches actual sheet name
-- Check sheet tab exists in spreadsheet
-
-**Authentication fails**
-
-- Verify service account key file exists
-- Check JSON key format is valid
-- Ensure API is enabled in Google Cloud
